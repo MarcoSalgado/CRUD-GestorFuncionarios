@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th.ano{
+    text-align: center;
+}
+
+th.mes{
+    text-align: center;
+}
+th.salario{
+    text-align: right;
+}
+
+th.parcela{
+    text-align: right;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
